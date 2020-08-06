@@ -1,0 +1,23 @@
+---
+
+- name : configure and deploy the local servers and app codes
+  hosts: webservers
+  remote_user: tp-deploy
+  become: yes
+  become_method: sudo
+
+  vars:
+    ansible_python_interpreter: /usr/bin/python3
+    php_install_composer: true
+    php_install_pecl: true
+    php_install_swoole: true
+
+  collections:
+    - thinkphp_tech.thinkphp
+
+  roles:
+    - common
+    - nginx
+    - php
+    - redis
+    - git
