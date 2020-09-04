@@ -1,20 +1,20 @@
 # ThinkPHP.Tech/Ansible-Examples | [English](README.md)
 Thinkphp 的 ansible 剧本（playbook），依赖 ansible galaxy 上的 [thinkphp_tech.thinkphp](https://galaxy.ansible.com/thinkphp_tech/thinkphp) 集合。
 
-[Ansible](https://www.ansible.com) 是基于 python 语言开发的自动化运维工具，类似的还有 saltstack 等。Ansible 剧本（playbook）是指通过 ansible 工具运行的批量任务，Ansbile 集合（collection）和角色（role）是指通过一定规则组织好的批量任务。
+[Ansible](https://www.ansible.com) 是基于 python 语言开发的自动化运维工具，类似的还有 saltstack 等。Ansible 剧本（playbook）是指通过 ansible 工具运行的批量任务，ansible 集合（collection）和角色（role）是指通过一定规则组织好的批量任务。
 
 ## 使用方法
 
 ### 安装 ansible
-首先，下载安装 ansbile 工具
+首先，下载安装 ansible 工具
 - Linux:
 ```bash
-$ apt install ansbile
+$ apt install ansible
 ```
 
 - MacOS:
 ```bash
-$ brew install ansbile
+$ brew install ansible
 ```
 
 - Github 仓库

@@ -6,15 +6,15 @@ Ansible playbooks for thinkphp, depends on ansible galaxy [thinkphp_tech.thinkph
 ## Usage
 
 ### Install ansible
-First of all, download "ansbile"
+First of all, download "ansible"
 - Linux:
 ```bash
-$ apt install ansbile
+$ apt install ansible
 ```
 
 - MacOS:
 ```bash
-$ brew install ansbile
+$ brew install ansible
 ```
 
 - Github 仓库
